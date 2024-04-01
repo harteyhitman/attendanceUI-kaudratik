@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+
+}
+.portal_list{color: #ABABAB;
+  font-size: 7px;
+  font-family: 'Inter';
+  font-weight: bold;
+}
+.red_bg{
+  background: #33357D;
+  color: #fff;
+}.red_bg:focus{
+  background: #33357D;
+  color: #fff;
+}
+.red_bg:active{
+  background: #33357D;
+  color: #fff;
+}
+.dash_btn{
+  background: #fff;
+  color: #33357D;
+}
+.notification{
+  left: 100px;
+  background: #33357D;
+  color: #fff;
+  padding: 4px 7px;
+  border-radius: 4px;
+}
